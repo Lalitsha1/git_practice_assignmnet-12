@@ -1,8 +1,10 @@
-function check prime(num){
-let count=0;
-for(let i=1;i<um;i++){
-if(num%i==0){
-count++;
-}
+function primes(a) {
+    let x="True";
+    for(let i=2;i<a;i++){
+        if(a%i==0){
+            x="False";
+            break;
+        }
+    }console.log(x);
 
-}console.log(count)
+}
